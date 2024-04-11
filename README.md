@@ -23,14 +23,14 @@ The following script computes the feature importance (Mean Decrease in Impurity)
 
       python random_forest_scatter_plots_corr_matrix_fi.py --control_path ../data/control_data_build_model.xlsx --mutant_path ../data/mutants_test_model_data.xlsx --out_dir /path/to/output/folder
 
-![Mean Decrease in Impurity](/figs/mdi__all.png)  
+![Mean Decrease in Impurity](/figs/mdi_all.png)  
 <p align="center">
  Feature importance for predicting lifespan </center>
 </p>
 
 The script does additional data analysis (correlation between features, scatter plots for prediction, etc.)
 
-![Correlation Matrix](/figs/corr__matrix.png)  
+![Correlation Matrix](/figs/corr_matrix.png)  
 <p align="center">
  Feature correlations </center>
 </p>
