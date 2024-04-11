@@ -7,13 +7,13 @@ The following script compares different linear and non-linear ML models for pred
       python lifespan_regression_compare_models_per_day.py --control_path ../data/control_data_build_model.xlsx --mutant_path ../data/mutants_test_model_data.xlsx --out_dir /path/to/output/folder
 
 ![R2 Score](/figs/r2scores_all.png)  
-<p align="center">
- Lifespan prediction comparison </center>
+<p align="left">
+ Lifespan prediction model comparison (R2 score) </left>
 </p>
 
 ![Mean Average Error](/figs/mae_scores_all.png)  
 <p align="center">
- Lifespan prediction comparison </center>
+ Lifespan prediction model comparison (MAE) </center>
 </p>
 
 The script also performs comparisons per day using multiple metrics (R2, MAE, RMSE, F1-score (>18 days), Acccuracy (>18 days), ...)
