@@ -10,9 +10,9 @@ The following script compares different linear and non-linear ML models for pred
 <p align="left">
  Lifespan prediction model comparison (R2 score) </left>
 </p>
-
-![Mean Average Error](/figs/mae_scores_all.png)  
 <p align="center">
+![Mean Average Error](/figs/mae_scores_all.png)  
+
  Lifespan prediction model comparison (MAE) </center>
 </p>
 
